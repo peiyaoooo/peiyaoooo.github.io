@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Welcome to my site!
+I'm a PhD candidate of Nanjing University. Recently, I'm focusing on some image processing problems in respect of multi-cameras.
 
-You can use the [editor on GitHub](https://github.com/peiyaoooo/peiyaoooo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- You can use the [editor on GitHub](https://github.com/peiyaoooo/peiyaoooo.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files. -->
 
 ### Markdown
 
