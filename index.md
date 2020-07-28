@@ -42,6 +42,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   <body>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
 	
+    Here is the simple record of my life, including the books read, the lists completed and the past days. It will be monthly updated. Just do it!
     <div class="mermaid">
       gantt
 	    title Trip on 2020
