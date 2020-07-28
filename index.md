@@ -42,7 +42,21 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
   <body>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
-
+    
+	
+	<div class="mermaid">
+      gantt
+      tittle Trip on 2020
+      dataFormat YYYY-MM-DD
+      section Past days
+      Bye :   done, d1, 2020-01-01, 2020-07-28
+  
+      section Agone books
+      Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28
+  
+      section Bundle list
+    </div>
+	
     Here is one mermaid diagram:
     <div class="mermaid">
       graph TD
