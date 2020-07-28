@@ -41,7 +41,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <html>
   <body>	
 	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
-   
+    
+	<div class="mermaid">
+      graph TD
+      A[Client] --> B[Load Balancer]
+      B --> C[Server1]
+      B --> D[Server2]
+    </div>
+	
     <div class="mermaid">
       gantt
 	    tittle	Trip on 2020
