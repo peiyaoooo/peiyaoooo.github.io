@@ -40,8 +40,9 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Process 
 <html>
   <body>
-
-    Here is a quick record of my annual goals. It is monthly updatedsimple. Just do it!
+	Here is a quick record of my annual goals. It is monthly updatedsimple. Just do it!
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
+    
     <div class="mermaid">
       gantt
 	    tittle	Trip on 2020
