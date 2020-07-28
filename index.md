@@ -46,14 +46,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 	
 	<div class="mermaid">
       gantt
-          tittle Trip on 2020
-          dateFormat YYYY-MM-DD
-		
-          section Past days
-          Bye :   done, d1, 2020-01-01, 2020-07-28
-          section Agone books
-          Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28 
-          section Bundle list
+	    title Trip on 2020
+	    dateFormat YYYY-MM-DD
+	
+	    section Past days
+	    Bye :   done, d1, 2020-01-01, 2020-07-28
+	    section Agone books
+	    Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28 
+	    section Bundle list
     </div>
 	
     Here is one mermaid diagram:
