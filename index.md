@@ -41,8 +41,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 <html>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
-    
 	
     <div class="mermaid">
       gantt
@@ -56,44 +54,8 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 	    section Bundle list
     </div>
 	
-    Here is one mermaid diagram:
-    <div class="mermaid">
-      graph TD
-      A[Client] --> B[Load Balancer]
-      B --> C[Server1]
-      B --> D[Server2]
-    </div>
-
-    And here is another:
-    <div class="mermaid">
-      graph TD
-      A[Client] -->|tcp_123| B(Load Balancer)
-      B -->|tcp_456| C[Server1]
-      B -->|tcp_456| D[Server2]
-    </div>
-  </body>
-  
-  <div class="mermaid">
-    gantt
-      dateFormat  YYYY-MM-DD
-
-      section Clickable
-      Visit mermaidjs           :active, cl1, 2014-01-07, 3d
-      Print arguments         :cl2, after cl1, 3d
-      Print task              :cl3, after cl2, 3d
-
-      click cl1 href "https://mermaidjs.github.io/"
-      click cl2 call printArguments("test1", "test2", test3)
-      click cl3 call printTask()
-  </div>
 
   <script>
-    var printArguments = function(arg1, arg2, arg3) {
-      alert('printArguments called with arguments: ' + arg1 + ', ' + arg2 + ', ' + arg3);
-    }
-    var printTask = function(taskId) {
-      alert('taskId: ' + taskId);
-    }
     var config = {
       startOnLoad:true,
       securityLevel:'loose',
