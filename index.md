@@ -43,20 +43,23 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
     <script>mermaid.initialize({startOnLoad:true});</script>
 
-    Here is one mermaid diagram:
+    Here is a quick record of my annual goals. It is monthly updatedsimple. Just do it!
     <div class="mermaid">
-      graph TD
+      gantt
+	    tittle :	Trip on 2020
+		dataFormat: YYYY-MM-DD
+		section Past days
+		Bye : 		done, d1, 2020-01-01, 2020-07-28
+		
+		section Agone books
+		Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28
+		
+		section Bundle list
+		
       A[Client] --> B[Load Balancer]
       B --> C[Server1]
       B --> D[Server2]
     </div>
 
-    And here is another:
-    <div class="mermaid">
-      graph TD
-      A[Client] -->|tcp_123| B(Load Balancer)
-      B -->|tcp_456| C[Server1]
-      B -->|tcp_456| D[Server2]
-    </div>
   </body>
 </html>
