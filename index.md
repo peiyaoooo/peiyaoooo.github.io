@@ -46,15 +46,15 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
     Here is a quick record of my annual goals. It is monthly updatedsimple. Just do it!
     <div class="mermaid">
       gantt
-	      tittle :	Trip on 2020
-		  dataFormat: YYYY-MM-DD
-		  section Past days
-		  Bye : 		done, d1, 2020-01-01, 2020-07-28
+	    tittle	Trip on 2020
+		dataFormat YYYY-MM-DD
+		section Past days
+		Bye : 		done, d1, 2020-01-01, 2020-07-28
 		
-		  section Agone books
-		  Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28
+		section Agone books
+		Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28
 		
-		  section Bundle list
+		section Bundle list
 
     </div>
 
