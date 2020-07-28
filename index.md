@@ -40,36 +40,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Process 
 <html>
   <body>	
-	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
-    
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script> 
+    <script>mermaid.initialize({startOnLoad:true});</script>
+	
 	<div class="mermaid">
       graph TD
       A[Client] --> B[Load Balancer]
       B --> C[Server1]
       B --> D[Server2]
     </div>
-	
-    <div class="mermaid">
-      gantt
-	    tittle	Trip on 2020
-		dataFormat YYYY-MM-DD
-		section Past days
-		Bye : 		done, d1, 2020-01-01, 2020-07-28
-		
-		section Agone books
-		Essentials of Pattern recognition: active, book1, 2020-07-15, 2020-07-28
-		
-		section Bundle list
-
-    </div>
-	
-	<script>
-      var config = {
-        startOnLoad:true,
-        securityLevel:'loose',
-      };
-      mermaid.initialize(config);
-    </script>
-
   </body>
 </html>
