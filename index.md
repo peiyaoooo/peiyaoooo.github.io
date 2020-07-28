@@ -40,8 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 ### Process 
 <html>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
+%%%%%    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.6.0/dist/mermaid.min.js"></script>
 
     Here is a quick record of my annual goals. It is monthly updatedsimple. Just do it!
     <div class="mermaid">
@@ -57,6 +56,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 		section Bundle list
 
     </div>
+	
+	<script>
+      var config = {
+        startOnLoad:true,
+        securityLevel:'loose',
+      };
+      mermaid.initialize(config);
+    </script>
 
   </body>
 </html>
